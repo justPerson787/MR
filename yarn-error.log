@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\NN\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\NN\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\NN\bin;C:\Python38\Scripts;C:\Python38;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Ruby27-x64\bin;C:\Users\NN\AppData\Local\Microsoft\WindowsApps;C:\Users\NN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NN\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Can't answer a question unless a user TTY
+      at ConsoleReporter.question (C:\Users\NN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:96800:59)
+      at Object.<anonymous> (C:\Users\NN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:89075:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\NN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\NN\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:97:5)
+
+npm manifest: 
+  {
+    "dependencies": {
+      "escape-string-regexp": "^1.0.5",
+      "package": "^1.0.1",
+      "prop-types": "^15.6.1",
+      "react": "^16.3.2",
+      "react-dom": "^16.3.2",
+      "react-router-dom": "^4.3.1"
+    },
+    "devDependencies": {
+      "react-scripts": "1.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
